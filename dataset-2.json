@@ -1,0 +1,454 @@
+[
+    {
+      "uid": 1,
+      "name": "Delhi",
+      "state": "Delhi",
+      "to": [2, 5, 9, 10, 11, 16, 24, 25, 33, 35],
+      "info": {
+        "description": "Delhi, the capital city of India, is a vibrant metropolis known for its rich history and modern infrastructure.",
+        "location": "Northern India",
+        "things_to_do": ["Visit the Red Fort", "Explore Qutub Minar", "Stroll through India Gate", "Experience Chandni Chowk"]
+      }
+    },
+    {
+      "uid": 2,
+      "name": "Mumbai",
+      "state": "Maharashtra",
+      "to": [1, 6, 7, 8, 12, 18, 19, 20, 30, 32, 39, 41],
+      "info": {
+        "description": "Mumbai, the financial capital of India, is known for its bustling city life, Bollywood industry, and iconic landmarks.",
+        "location": "Western India",
+        "things_to_do": ["Visit Gateway of India", "Walk along Marine Drive", "Explore Elephanta Caves", "Enjoy Juhu Beach"]
+      }
+    },
+    {
+      "uid": 3,
+      "name": "Kolkata",
+      "state": "West Bengal",
+      "to": [13, 14, 15, 27, 28, 31, 37],
+      "info": {
+        "description": "Kolkata, known as the cultural capital of India, boasts colonial architecture, vibrant arts, and literary heritage.",
+        "location": "Eastern India",
+        "things_to_do": ["Visit Victoria Memorial", "Explore Howrah Bridge", "Stroll through Park Street", "Enjoy Indian Museum"]
+      }
+    },
+    {
+      "uid": 4,
+      "name": "Chennai",
+      "state": "Tamil Nadu",
+      "to": [5, 6, 14, 21, 22, 23, 29, 30, 34],
+      "info": {
+        "description": "Chennai, the capital of Tamil Nadu, is known for its cultural heritage, temples, and Marina Beach.",
+        "location": "Southern India",
+        "things_to_do": ["Visit Marina Beach", "Explore Fort St. George", "Admire Kapaleeshwarar Temple", "Shop at T. Nagar"]
+      }
+    },
+    {
+      "uid": 5,
+      "name": "Bangalore",
+      "state": "Karnataka",
+      "to": [1, 4, 6, 8, 14, 23, 29, 32],
+      "info": {
+        "description": "Bangalore, known as the Silicon Valley of India, is famous for its tech industry, parks, and vibrant nightlife.",
+        "location": "Southern India",
+        "things_to_do": ["Visit Lalbagh Botanical Garden", "Explore Bangalore Palace", "Walk through Cubbon Park", "Shop at MG Road"]
+      }
+    },
+    {
+      "uid": 6,
+      "name": "Hyderabad",
+      "state": "Telangana",
+      "to": [2, 4, 5, 8, 20, 21, 29, 30],
+      "info": {
+        "description": "Hyderabad, known for its rich history and biryani, features landmarks like Charminar and Golconda Fort.",
+        "location": "Southern India",
+        "things_to_do": ["Visit Charminar", "Explore Golconda Fort", "Stroll through Hussain Sagar", "Enjoy Ramoji Film City"]
+      }
+    },
+    {
+      "uid": 7,
+      "name": "Ahmedabad",
+      "state": "Gujarat",
+      "to": [2, 9, 18, 19, 32, 38],
+      "info": {
+        "description": "Ahmedabad, a major city in Gujarat, is known for its textile industry, historic sites, and Sabarmati Ashram.",
+        "location": "Western India",
+        "things_to_do": ["Visit Sabarmati Ashram", "Explore Akshardham Temple", "Walk through Kankaria Lake", "Admire Adalaj Stepwell"]
+      }
+    },
+    {
+      "uid": 8,
+      "name": "Pune",
+      "state": "Maharashtra",
+      "to": [2, 5, 6, 19, 30, 39],
+      "info": {
+        "description": "Pune, known for its educational institutions and cultural heritage, offers a blend of modernity and tradition.",
+        "location": "Western India",
+        "things_to_do": ["Visit Shaniwar Wada", "Explore Aga Khan Palace", "Walk through Osho Ashram", "Enjoy at Sinhagad Fort"]
+      }
+    },
+    {
+      "uid": 9,
+      "name": "Jaipur",
+      "state": "Rajasthan",
+      "to": [1, 7, 10, 16, 24, 33, 35],
+      "info": {
+        "description": "Jaipur, the Pink City, is famous for its majestic palaces, forts, and vibrant bazaars.",
+        "location": "Northern India",
+        "things_to_do": ["Visit Amer Fort", "Explore City Palace", "Walk through Hawa Mahal", "Shop at Johari Bazaar"]
+      }
+    },
+    {
+      "uid": 10,
+      "name": "Lucknow",
+      "state": "Uttar Pradesh",
+      "to": [1, 9, 11, 17, 25, 26, 33, 35],
+      "info": {
+        "description": "Lucknow, the City of Nawabs, is known for its rich history, cuisine, and architectural marvels.",
+        "location": "Northern India",
+        "things_to_do": ["Visit Bara Imambara", "Explore Chota Imambara", "Walk through Rumi Darwaza", "Enjoy Lucknowi Cuisine"]
+      }
+    },
+    {
+      "uid": 11,
+      "name": "Patna",
+      "state": "Bihar",
+      "to": [1, 10, 13, 17, 27, 31, 33, 35],
+      "info": {
+        "description": "Patna, the capital of Bihar, is one of the oldest continuously inhabited places in the world, known for its rich history.",
+        "location": "Eastern India",
+        "things_to_do": ["Visit Patna Museum", "Explore Golghar", "Stroll through Gandhi Maidan", "Admire Takht Sri Patna Sahib"]
+      }
+    },
+    {
+      "uid": 12,
+      "name": "Bhopal",
+      "state": "Madhya Pradesh",
+      "to": [2, 20, 26, 32, 33, 35],
+      "info": {
+        "description": "Bhopal, the capital of Madhya Pradesh, is known for its lakes, historic monuments, and vibrant culture.",
+        "location": "Central India",
+        "things_to_do": ["Visit Upper Lake", "Explore Van Vihar National Park", "Walk through Taj-ul-Masajid", "Enjoy at Bhimbetka Caves"]
+      }
+    },
+    {
+      "uid": 13,
+      "name": "Bhubaneswar",
+      "state": "Odisha",
+      "to": [3, 11, 21, 27, 28, 31, 37],
+      "info": {
+        "description": "Bhubaneswar, the capital of Odisha, is known for its ancient temples and rich cultural heritage.",
+        "location": "Eastern India",
+        "things_to_do": ["Visit Lingaraj Temple", "Explore Udayagiri and Khandagiri Caves", "Stroll through Nandankanan Zoo", "Admire Dhauli Giri"]
+      }
+    },
+    {
+      "uid": 14,
+      "name": "Thiruvananthapuram",
+      "state": "Kerala",
+      "to": [3, 4, 5, 23, 29, 34],
+      "info": {
+        "description": "Thiruvananthapuram, the capital of Kerala, is known for its beaches, backwaters, and historic landmarks.",
+        "location": "Southern India",
+        "things_to_do": ["Visit Kovalam Beach", "Explore Padmanabhaswamy Temple", "Walk through Napier Museum", "Enjoy at Poovar Island"]
+      }
+    },
+    {
+      "uid": 15,
+      "name": "Guwahati",
+      "state": "Assam",
+      "to": [3, 28, 31, 37],
+      "info": {
+        "description": "Guwahati, the largest city in Assam, is known for its temples, wildlife, and scenic beauty.",
+        "location": "Northeastern India",
+        "things_to_do": ["Visit Kamakhya Temple", "Explore Assam State Museum", "Walk through Umananda Island", "Enjoy at Pobitora Wildlife Sanctuary"]
+      }
+    },
+    {
+      "uid": 16,
+      "name": "Chandigarh",
+      "state": "Chandigarh",
+      "to": [1, 9, 24, 25, 35],
+      "info": {
+        "description": "Chandigarh, known for its urban planning and architecture, is a modern city with beautiful gardens and lakes.",
+        "location": "Northern India",
+        "things_to_do": ["Visit Rock Garden", "Explore Sukhna Lake", "Walk through Rose Garden", "Admire Capitol Complex"]
+      }
+    },
+    {
+      "uid": 17,
+      "name": "Varanasi",
+      "state": "Uttar Pradesh",
+      "to": [10, 11, 18, 25, 26, 33, 35],
+      "info": {
+        "description": "Varanasi, one of the oldest cities in the world, is known for its ghats, temples, and vibrant cultural heritage.",
+        "location": "Northern India",
+        "things_to_do": ["Visit Kashi Vishwanath Temple", "Explore Sarnath", "Walk through Dashashwamedh Ghat", "Enjoy Ganga Aarti"]
+      }
+    },
+    {
+      "uid": 18,
+      "name": "Nagpur",
+      "state": "Maharashtra",
+      "to": [2, 7, 17, 19, 20, 26, 33, 35],
+      "info": {
+        "description": "Nagpur, the winter capital of Maharashtra, is known for its oranges, historic landmarks, and vibrant culture.",
+        "location": "Central India",
+        "things_to_do": ["Visit Deekshabhoomi", "Explore Sitabuldi Fort", "Walk through Ambazari Lake", "Enjoy at Raman Science Centre"]
+      }
+    },
+    {
+      "uid": 19,
+      "name": "Surat",
+      "state": "Gujarat",
+      "to": [2, 7, 8, 18, 30, 38],
+      "info": {
+        "description": "Surat, a major city in Gujarat, is known for its diamond and textile industry, as well as its vibrant culture.",
+        "location": "Western India",
+        "things_to_do": ["Visit Dumas Beach", "Explore Science Centre", "Walk through Sarthana Nature Park", "Enjoy at Ambika Niketan Temple"]
+      }
+    },
+    {
+      "uid": 20,
+      "name": "Indore",
+      "state": "Madhya Pradesh",
+      "to": [2, 6, 12, 18, 21, 32],
+      "info": {
+        "description": "Indore, a major city in Madhya Pradesh, is known for its rich history, street food, and vibrant culture.",
+        "location": "Central India",
+        "things_to_do": ["Visit Rajwada Palace", "Explore Lal Bagh Palace", "Walk through Sarafa Bazaar", "Enjoy at Patalpani Waterfall"]
+      }
+    },
+    {
+      "uid": 21,
+      "name": "Vijayawada",
+      "state": "Andhra Pradesh",
+      "to": [4, 6, 13, 20, 23, 30],
+      "info": {
+        "description": "Vijayawada, a major city in Andhra Pradesh, is known for its historic landmarks and bustling city life.",
+        "location": "Southern India",
+        "things_to_do": ["Visit Kanaka Durga Temple", "Explore Undavalli Caves", "Walk through Prakasam Barrage", "Enjoy at Bhavani Island"]
+      }
+    },
+    {
+      "uid": 22,
+      "name": "Madurai",
+      "state": "Tamil Nadu",
+      "to": [4, 23, 29, 34],
+      "info": {
+        "description": "Madurai, known for its Meenakshi Amman Temple, is a major cultural and religious center in Tamil Nadu.",
+        "location": "Southern India",
+        "things_to_do": ["Visit Meenakshi Amman Temple", "Explore Thirumalai Nayakar Mahal", "Walk through Gandhi Memorial Museum", "Enjoy at Alagar Koyil"]
+      }
+    },
+    {
+      "uid": 23,
+      "name": "Kochi",
+      "state": "Kerala",
+      "to": [5, 14, 21, 22, 29],
+      "info": {
+        "description": "Kochi, a major port city in Kerala, is known for its historic sites, backwaters, and vibrant culture.",
+        "location": "Southern India",
+        "things_to_do": ["Visit Fort Kochi", "Explore Mattancherry Palace", "Walk through Marine Drive", "Enjoy at Cherai Beach"]
+      }
+    },
+    {
+      "uid": 24,
+      "name": "Amritsar",
+      "state": "Punjab",
+      "to": [1, 9, 16, 25],
+      "info": {
+        "description": "Amritsar, home to the Golden Temple, is a major cultural and religious center in Punjab.",
+        "location": "Northern India",
+        "things_to_do": ["Visit Golden Temple", "Explore Jallianwala Bagh", "Walk through Wagah Border", "Enjoy at Partition Museum"]
+      }
+    },
+    {
+      "uid": 25,
+      "name": "Kanpur",
+      "state": "Uttar Pradesh",
+      "to": [1, 10, 16, 17, 24, 26, 33, 35],
+      "info": {
+        "description": "Kanpur, a major industrial city in Uttar Pradesh, is known for its historical significance and vibrant culture.",
+        "location": "Northern India",
+        "things_to_do": ["Visit Allen Forest Zoo", "Explore Kanpur Memorial Church", "Walk through Moti Jheel", "Enjoy at Blue World Theme Park"]
+      }
+    },
+    {
+      "uid": 26,
+      "name": "Jabalpur",
+      "state": "Madhya Pradesh",
+      "to": [10, 12, 17, 18, 25, 33, 35],
+      "info": {
+        "description": "Jabalpur, a major city in Madhya Pradesh, is known for its natural beauty, historical sites, and cultural heritage.",
+        "location": "Central India",
+        "things_to_do": ["Visit Dhuandhar Falls", "Explore Marble Rocks", "Walk through Madan Mahal Fort", "Enjoy at Kanha National Park"]
+      }
+    },
+    {
+      "uid": 27,
+      "name": "Ranchi",
+      "state": "Jharkhand",
+      "to": [3, 11, 13, 31, 33, 35],
+      "info": {
+        "description": "Ranchi, the capital of Jharkhand, is known for its waterfalls, scenic beauty, and vibrant culture.",
+        "location": "Eastern India",
+        "things_to_do": ["Visit Hundru Falls", "Explore Rock Garden", "Walk through Tagore Hill", "Enjoy at Patratu Valley"]
+      }
+    },
+    {
+      "uid": 28,
+      "name": "Dibrugarh",
+      "state": "Assam",
+      "to": [3, 13, 15, 31, 37],
+      "info": {
+        "description": "Dibrugarh, a major city in Assam, is known for its tea gardens, scenic beauty, and vibrant culture.",
+        "location": "Northeastern India",
+        "things_to_do": ["Visit Dibrugarh University", "Explore Jokai Botanical Garden", "Walk through Raidongia Dol", "Enjoy at Dehing Patkai Wildlife Sanctuary"]
+      }
+    },
+    {
+      "uid": 29,
+      "name": "Coimbatore",
+      "state": "Tamil Nadu",
+      "to": [4, 5, 14, 22, 23, 30, 34],
+      "info": {
+        "description": "Coimbatore, a major city in Tamil Nadu, is known for its textile industry, pleasant weather, and vibrant culture.",
+        "location": "Southern India",
+        "things_to_do": ["Visit Marudamalai Temple", "Explore Gass Forest Museum", "Walk through VOC Park", "Enjoy at Isha Yoga Center"]
+      }
+    },
+    {
+      "uid": 30,
+      "name": "Visakhapatnam",
+      "state": "Andhra Pradesh",
+      "to": [2, 4, 6, 8, 21, 29],
+      "info": {
+        "description": "Visakhapatnam, a major port city in Andhra Pradesh, is known for its beaches, industrial hubs, and vibrant culture.",
+        "location": "Southern India",
+        "things_to_do": ["Visit Kailasagiri", "Explore Borra Caves", "Walk through RK Beach", "Enjoy at INS Kursura Submarine Museum"]
+      }
+    },
+    {
+      "uid": 31,
+      "name": "Guwahati",
+      "state": "Assam",
+      "to": [3, 11, 13, 15, 27, 28],
+      "info": {
+        "description": "Guwahati, the largest city in Assam, is known for its temples, wildlife, and scenic beauty.",
+        "location": "Northeastern India",
+        "things_to_do": ["Visit Kamakhya Temple", "Explore Assam State Museum", "Walk through Umananda Island", "Enjoy at Pobitora Wildlife Sanctuary"]
+      }
+    },
+    {
+      "uid": 32,
+      "name": "Vadodara",
+      "state": "Gujarat",
+      "to": [2, 5, 7, 12, 19, 20, 38],
+      "info": {
+        "description": "Vadodara, a major city in Gujarat, is known for its palaces, parks, and cultural heritage.",
+        "location": "Western India",
+        "things_to_do": ["Visit Laxmi Vilas Palace", "Explore Sayaji Baug", "Walk through Baroda Museum", "Enjoy at Champaner-Pavagadh Archaeological Park"]
+      }
+    },
+    {
+      "uid": 33,
+      "name": "Raipur",
+      "state": "Chhattisgarh",
+      "to": [1, 9, 10, 11, 12, 17, 18, 25, 26, 27],
+      "info": {
+        "description": "Raipur, the capital of Chhattisgarh, is known for its vibrant culture, temples, and industrial hubs.",
+        "location": "Central India",
+        "things_to_do": ["Visit Mahant Ghasidas Museum", "Explore Nandan Van Zoo", "Walk through Vivekananda Sarovar", "Enjoy at Purkhauti Muktangan"]
+      }
+    },
+    {
+      "uid": 34,
+      "name": "Mysore",
+      "state": "Karnataka",
+      "to": [4, 14, 22, 29],
+      "info": {
+        "description": "Mysore, known for its royal heritage and beautiful palaces, is a major cultural center in Karnataka.",
+        "location": "Southern India",
+        "things_to_do": ["Visit Mysore Palace", "Explore Chamundi Hill", "Walk through Brindavan Gardens", "Enjoy at Mysore Zoo"]
+      }
+    },
+    {
+      "uid": 35,
+      "name": "Agra",
+      "state": "Uttar Pradesh",
+      "to": [1, 9, 10, 11, 12, 16, 17, 18, 25, 26],
+      "info": {
+        "description": "Agra, home to the Taj Mahal, is a major tourist destination known for its Mughal architecture and vibrant culture.",
+        "location": "Northern India",
+        "things_to_do": ["Visit Taj Mahal", "Explore Agra Fort", "Walk through Mehtab Bagh", "Enjoy at Fatehpur Sikri"]
+      }
+    },
+    {
+      "uid": 36,
+      "name": "Panaji",
+      "state": "Goa",
+      "to": [],
+      "info": {
+        "description": "Panaji, the capital of Goa, is known for its beaches, historic sites, and vibrant culture.",
+        "location": "Western India",
+        "things_to_do": ["Visit Basilica of Bom Jesus", "Explore Se Cathedral", "Walk through Miramar Beach", "Enjoy at Dona Paula"]
+      }
+    },
+    {
+      "uid": 37,
+      "name": "Shillong",
+      "state": "Meghalaya",
+      "to": [3, 13, 15, 27, 28],
+      "info": {
+        "description": "Shillong, the capital of Meghalaya, is known for its scenic beauty, waterfalls, and vibrant culture.",
+        "location": "Northeastern India",
+        "things_to_do": ["Visit Elephant Falls", "Explore Shillong Peak", "Walk through Ward's Lake", "Enjoy at Don Bosco Museum"]
+      }
+    },
+    {
+      "uid": 38,
+      "name": "Rajkot",
+      "state": "Gujarat",
+      "to": [7, 19, 32],
+      "info": {
+        "description": "Rajkot, a major city in Gujarat, is known for its industrial significance, cultural heritage, and vibrant lifestyle.",
+        "location": "Western India",
+        "things_to_do": ["Visit Watson Museum", "Explore Kaba Gandhi No Delo", "Walk through Jubilee Garden", "Enjoy at Rotary Dolls Museum"]
+      }
+    },
+    {
+      "uid": 39,
+      "name": "Nashik",
+      "state": "Maharashtra",
+      "to": [2, 8],
+      "info": {
+        "description": "Nashik, known for its vineyards and religious significance, is a major city in Maharashtra.",
+        "location": "Western India",
+        "things_to_do": ["Visit Sula Vineyards", "Explore Trimbakeshwar Temple", "Walk through Panchavati", "Enjoy at Anjneri Hill"]
+      }
+    },
+    {
+      "uid": 40,
+      "name": "Shimla",
+      "state": "Himachal Pradesh",
+      "to": [],
+      "info": {
+        "description": "Shimla, the capital of Himachal Pradesh, is known for its scenic beauty, colonial architecture, and vibrant culture.",
+        "location": "Northern India",
+        "things_to_do": ["Visit The Ridge", "Explore Jakhoo Temple", "Walk through Mall Road", "Enjoy at Kufri"]
+      }
+    },
+    {
+      "uid": 41,
+      "name": "Vadodara",
+      "state": "Gujarat",
+      "to": [],
+      "info": {
+        "description": "Vadodara, a major city in Gujarat, is known for its palaces, parks, and cultural heritage.",
+        "location": "Western India",
+        "things_to_do": ["Visit Laxmi Vilas Palace", "Explore Sayaji Baug", "Walk through Baroda Museum", "Enjoy at Champaner-Pavagadh Archaeological Park"]
+      }
+    }
+  ]
+  
